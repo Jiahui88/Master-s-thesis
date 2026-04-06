@@ -1,0 +1,2167 @@
+{
+"METABOLOMICS WORKBENCH":{"STUDY_ID":"ST004145","ANALYSIS_ID":"AN006870","PROJECT_ID":"PR002256","VERSION":"1","CREATED_ON":"August 22, 2025, 1:56 pm"},
+
+"PROJECT":{"PROJECT_TITLE":"Multi-Omic Analysis Links Neighborhood Disadvantage to Inflammatory Proteins and Tumorigenic Markers in ER+ Breast Cancer Plasma and Tumor Samples","PROJECT_TYPE":"Targeted steroid hormone metabolomics","PROJECT_SUMMARY":"Residing in disadvantaged neighborhoods has been linked to worsened survival among Black women with estrogen receptor positive (ER+) breast cancer (BC), yet the underlying multi-omic alterations remain underexplored. To investigate associations between neighborhood deprivation and pre-treatment steroid hormones, untargeted metabolites, inflammatory proteins, and tumoral gene expression in women with primary ER+ BC and cancer-free controls. Pretreatment plasma was collected from ER+ BC patients (n=91) and controls (n=141) across three Chicago hospitals. Area Deprivation Index (ADI) was calculated per participant. Plasma was analyzed via targeted steroid hormone and untargeted metabolomics assays, and Olink''s inflammatory protein panel. Tumor samples (n=71) were analyzed using the Nanostring Breast Cancer 360 panel. Single -omic analysis and multi-omics integration was performed. Elevated inflammatory proteins were observed in cases and controls from disadvantaged neighborhoods (p&lt;0.05), and tumoral gene expression showed upregulation of inflammatory and proliferation-related genes (p&lt;0.05). Patients from deprived areas exhibited higher inflammation and antioxidant depletion even within the same tumor grade (p&lt;0.05). Neighborhood deprivation correlates with pro-inflammatory, proliferative multi-omic profiles that may underlie worsened outcomes.","INSTITUTE":"University of Illinois Urbana-Champaign","DEPARTMENT":"Food Science and Human Nutrition","LAST_NAME":"Zeynep","FIRST_NAME":"Madak-Erdogan","ADDRESS":"1201 W Gregory Dr, Urbana, IL, 61801, USA","EMAIL":"zmadake2@illinois.edu","PHONE":"217-300-9063","CONTRIBUTORS":"Hannah Heath, Ashlie Santaliz Casiano"},
+
+"STUDY":{"STUDY_TITLE":"Multi-Omic Analysis Links Neighborhood Disadvantage to Inflammatory Proteins and Tumorigenic Markers in ER+ Breast Cancer Plasma and Tumor Samples","STUDY_SUMMARY":"Residing in disadvantaged neighborhoods has been linked to worsened survival among Black women with estrogen receptor positive (ER+) breast cancer (BC), yet the underlying multi-omic alterations remain underexplored. To investigate associations between neighborhood deprivation and pre-treatment steroid hormones, untargeted metabolites, inflammatory proteins, and tumoral gene expression in women with primary ER+ BC and cancer-free controls. Pretreatment plasma was collected from ER+ BC patients (n=91) and controls (n=141) across three Chicago hospitals. Area Deprivation Index (ADI) was calculated per participant. Plasma was analyzed via targeted steroid hormone and untargeted metabolomics assays, and Olink''s inflammatory protein panel. Tumor samples (n=71) were analyzed using the Nanostring Breast Cancer 360 panel. Single -omic analysis and multi-omics integration was performed. Elevated inflammatory proteins were observed in cases and controls from disadvantaged neighborhoods (p&lt;0.05), and tumoral gene expression showed upregulation of inflammatory and proliferation-related genes (p&lt;0.05). Patients from deprived areas exhibited higher inflammation and antioxidant depletion even within the same tumor grade (p&lt;0.05). Neighborhood deprivation correlates with pro-inflammatory, proliferative multi-omic profiles that may underlie worsened outcomes.","INSTITUTE":"University of Illinois Urbana-Champaign","LAST_NAME":"Madak-Erdogan","FIRST_NAME":"Zeynep","ADDRESS":"1201 W Gregory Dr, Urbana, IL, 61801, USA","EMAIL":"zmadake2@illinois.edu","PHONE":"17604533886","NUM_GROUPS":"3","TOTAL_SUBJECTS":"232","NUM_FEMALES":"232"},
+
+"SUBJECT":{"SUBJECT_TYPE":"Human","SUBJECT_SPECIES":"Homo sapiens","TAXONOMY_ID":"9606","AGE_OR_AGE_RANGE":"24-80 years","WEIGHT_OR_WEIGHT_RANGE":"BMI: 13-58","GENDER":"Female","HUMAN_RACE":"Black or white race","HUMAN_INCLUSION_CRITERIA":"Cancer cases: new diagnosis of American Joint Committee of Cancer (AJCC) stage I–III, ER+ breast cancer, untreated ; Controls: negative screening mammogram (BI-RADS category 1-2)"},
+"SUBJECT_SAMPLE_FACTORS":[
+{
+"Subject ID":"-",
+"Sample ID":"H-146",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"75.5","Age":"24","BMI":"23.31201666","Tumor grade":"Grade III","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-182,  H-146.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-228",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"26","Age":"26","BMI":"21.74810584","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-250,  H-228.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-134",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"43.33","Age":"26","BMI":"21.26710291","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-194,  H-134.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-95",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"8.33","Age":"29","BMI":"24.453125","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-76,  H-95.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-89",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"89","Age":"31","BMI":"38.515625","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-28,  H-89.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-190",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"77.33","Age":"33","BMI":"31.20599794","Tumor grade":"Grade III","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-112,  H-190.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-235",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"25.8","Age":"34","BMI":"23.73352578","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-218,  H-235.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-227",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"21","Age":"38","BMI":"35.72829409","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-228,  H-227.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-243",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"86","Age":"38","BMI":"32.3408284","Tumor grade":"Grade III","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-213,  H-243.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-72",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"46","Age":"39","BMI":"45.89623149","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-13,  H-72.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-31",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"17","Age":"39","BMI":"40.3551103","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-34,  H-31.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-204",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"6.4","Age":"39","BMI":"30.2427906","Tumor grade":"Grade III","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-222,  H-204.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-164",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"64","Age":"39","BMI":"26.95635331","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-196,  H-164.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-186",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"10.33","Age":"39","BMI":"21.787299","Tumor grade":"Grade III","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-164,  H-186.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-21",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"70","Age":"40","BMI":"54.50331256","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-24,  H-21.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-129",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"44.5","Age":"40","BMI":"37.03125","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-146,  H-129.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-58",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"52","Age":"41","BMI":"43.49605566","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-96,  H-58.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-19",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"52","Age":"41","BMI":"42.88955874","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-17,  H-19.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-83",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"40","Age":"41","BMI":"30.29868407","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-75,  H-83.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-210",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"8.67","Age":"41","BMI":"24.88949891","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-242,  H-210.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-121",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"79.33","Age":"41","BMI":"24.65483235","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-136,  H-121.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-237",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"20.25","Age":"41","BMI":"21.00409544","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-227,  H-237.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-195",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"10.33","Age":"41","BMI":"19.75308642","Tumor grade":"Grade III","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-198,  H-195.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-241",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"28.14","Age":"42","BMI":"36.73685579","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-236,  H-241.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-22",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"65","Age":"43","BMI":"45.9834253","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-50,  H-22.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-59",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"66.33","Age":"43","BMI":"38.33735478","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-32,  H-59.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-35",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"62.5","Age":"43","BMI":"29.296875","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-59,  H-35.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-115",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"73","Age":"43","BMI":"26.7303719","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-150,  H-115.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-5",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"53","Age":"43","BMI":"20.666708","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-84,  H-5.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-144",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"Black"},
+"Additional sample data":{"ADI":"32","Age":"44","BMI":"37.109375","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-138,  H-144.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-68",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"68.99","Age":"44","BMI":"36.96702483","Tumor grade":"Grade III","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-23,  H-68.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-176",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"27","Age":"44","BMI":"36.56336609","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-122,  H-176.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-140",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"77.33","Age":"44","BMI":"24.62443311","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-131,  H-140.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-112",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"57.33","Age":"45","BMI":"29.87647228","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-166,  H-112.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-145",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"69.75","Age":"45","BMI":"22.48198214","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-186,  H-145.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-87",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"80","Age":"46","BMI":"44.69529537","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-45,  H-87.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-188",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"39","Age":"46","BMI":"37.26299483","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-142,  H-188.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-248",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"17.67","Age":"46","BMI":"30.8984375","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-230,  H-248.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-40",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"67.67","Age":"47","BMI":"46.37169038","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-21,  H-40.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-231",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"14.3","Age":"47","BMI":"18.07951659","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-244,  H-231.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-81",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"Black"},
+"Additional sample data":{"ADI":"25","Age":"48","BMI":"42.94740698","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-37,  H-81.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-60",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"78.8","Age":"48","BMI":"40.26844788","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-66,  H-60.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-162",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"29.75","Age":"48","BMI":"35.15849618","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-149,  H-162.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-73",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"95.25","Age":"48","BMI":"33.97612489","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-15,  H-73.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-225",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"7","Age":"48","BMI":"21.76382173","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-231,  H-225.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-159",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"39.2","Age":"49","BMI":"52.24489796","Tumor grade":"Grade III","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-180,  H-159.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-37",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"14.67","Age":"49","BMI":"52.20483814","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-83,  H-37.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-245",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"42.5","Age":"49","BMI":"32.19947191","Tumor grade":"Grade III","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-224,  H-245.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-64",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"80","Age":"49","BMI":"24.67684224","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-60,  H-64.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-100",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"73.8","Age":"50","BMI":"55.16040064","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-85,  H-100.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-132",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"Black"},
+"Additional sample data":{"ADI":"26","Age":"50","BMI":"33.9100346","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-135,  H-132.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-94",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"45.5","Age":"50","BMI":"31.96670135","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-8,  H-94.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-119",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"43.8","Age":"50","BMI":"31.74603175","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-173,  H-119.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-92",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"66.33","Age":"50","BMI":"28.5399449","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-77,  H-92.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-76",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"69.17","Age":"50","BMI":"26.6796875","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-35,  H-76.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-171",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"8.25","Age":"50","BMI":"22.68065761","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-191,  H-171.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-137",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"27","Age":"50","BMI":"21.97231834","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-141,  H-137.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-54",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"50.74","Age":"51","BMI":"45.72473708","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-42,  H-54.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-74",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"50.25","Age":"51","BMI":"37.75086505","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-56,  H-74.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-161",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"81.25","Age":"51","BMI":"30.71178174","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-160,  H-161.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-45",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"49.8","Age":"51","BMI":"26.43616398","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-2,  H-45.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-29",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"71.8","Age":"51","BMI":"25.49709241","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-71,  H-29.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-84",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"38","Age":"51","BMI":"25.30866251","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-18,  H-84.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-174",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"62.5","Age":"51","BMI":"23.4793369","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-110,  H-174.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-93",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"51.67","Age":"52","BMI":"45.32871972","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-68,  H-93.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-156",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"39","Age":"52","BMI":"39.96105319","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-181,  H-156.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-25",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"Black"},
+"Additional sample data":{"ADI":"26.5","Age":"52","BMI":"39.26175459","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-9,  H-25.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-63",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"64","Age":"52","BMI":"35.96402145","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-61,  H-63.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-34",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"76","Age":"52","BMI":"34.62404438","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-31,  H-34.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-7",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"46","Age":"52","BMI":"33.67817387","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-25,  H-7.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-9",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"64","Age":"52","BMI":"33.3984375","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-46,  H-9.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-118",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"49.25","Age":"52","BMI":"32.52595156","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-157,  H-118.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-160",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"74.33","Age":"52","BMI":"31.00559952","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-184,  H-160.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-2",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"48.33","Age":"52","BMI":"26.51892491","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-41,  H-2.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-240",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"17","Age":"52","BMI":"21.89417102","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-203,  H-240.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-79",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"89","Age":"53","BMI":"58.42021989","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-40,  H-79.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-99",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"61.33","Age":"53","BMI":"23.97159763","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-10,  H-99.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-85",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"59.75","Age":"53","BMI":"22.5390625","Tumor grade":"Grade III","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-62,  H-85.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-216",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"6.33","Age":"53","BMI":"20.91626082","Tumor grade":"Grade III","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-206,  H-216.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-51",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"50.74","Age":"54","BMI":"36.17569552","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-53,  H-51.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-66",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"47.67","Age":"54","BMI":"29.27337278","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-33,  H-66.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-46",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"17","Age":"54","BMI":"23.984375","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-88,  H-46.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-88",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"66.67","Age":"55","BMI":"48.82509765","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-67,  H-88.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-117",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"Black"},
+"Additional sample data":{"ADI":"22","Age":"55","BMI":"38.29062114","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-111,  H-117.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-128",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"37","Age":"55","BMI":"28.73191736","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-168,  H-128.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-199",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"60","Age":"56","BMI":"38.19647764","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-105,  H-199.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-77",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"70.4","Age":"56","BMI":"34.05306187","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-98,  H-77.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-111",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"Black"},
+"Additional sample data":{"ADI":"17","Age":"56","BMI":"31.10324344","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-183,  H-111.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-97",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"49.8","Age":"56","BMI":"27.96531301","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-93,  H-97.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-150",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"80","Age":"56","BMI":"27.28174603","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-171,  H-150.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-67",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"White"},
+"Additional sample data":{"ADI":"71.75","Age":"56","BMI":"27.19723183","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-73,  H-67.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-139",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"43.33","Age":"56","BMI":"26.3958034","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-153,  H-139.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-206",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"23","Age":"56","BMI":"26.09491858","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-207,  H-206.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-155",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"43.33","Age":"56","BMI":"25.67320449","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-152,  H-155.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-50",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"95.25","Age":"56","BMI":"16.69234108","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-14,  H-50.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-136",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"Black"},
+"Additional sample data":{"ADI":"15.5","Age":"57","BMI":"41.025255","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-113,  H-136.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-82",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"73","Age":"57","BMI":"36.00823045","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-95,  H-82.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-229",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"16","Age":"57","BMI":"33.19589973","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-214,  H-229.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-222",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"10.75","Age":"57","BMI":"31.88712522","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-211,  H-222.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-61",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"42","Age":"57","BMI":"30.1953125","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-11,  H-61.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-183",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"83","Age":"57","BMI":"30.04653653","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-132,  H-183.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-148",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"87","Age":"57","BMI":"26.70339761","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-116,  H-148.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-71",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"78","Age":"57","BMI":"26.67718455","Tumor grade":"Grade III","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-58,  H-71.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-175",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"13.5","Age":"57","BMI":"25.85248664","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-176,  H-175.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-173",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"21.5","Age":"57","BMI":"22.66082852","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-127,  H-173.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-8",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"Black"},
+"Additional sample data":{"ADI":"17","Age":"57","BMI":"21.97026959","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-36,  H-8.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-101",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"35","Age":"57","BMI":"21.45300416","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-192,  H-101.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-33",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"80.67","Age":"57","BMI":"16.85207101","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-4,  H-33.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-30",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"Black"},
+"Additional sample data":{"ADI":"31.5","Age":"57.44347826","BMI":"26.85449158","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-43,  H-30.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-167",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"Black"},
+"Additional sample data":{"ADI":"32.67","Age":"57.44347826","BMI":"22.38106509","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-107,  H-167.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-12",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"44","Age":"58","BMI":"42.63564115","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-80,  H-12.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-102",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"52","Age":"58","BMI":"40.4040404","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-104,  H-102.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-108",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"70","Age":"58","BMI":"38.94179894","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-118,  H-108.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-3",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"Black"},
+"Additional sample data":{"ADI":"26","Age":"58","BMI":"33.5508353","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-22,  H-3.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-43",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"40","Age":"58","BMI":"29.72318339","Tumor grade":"Grade III","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-49,  H-43.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-213",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"12.5","Age":"58","BMI":"23.67735854","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-215,  H-213.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-198",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"7.33","Age":"58","BMI":"23.27248283","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-102,  H-198.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-141",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"78.5","Age":"58","BMI":"13.06122449","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-129,  H-141.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-104",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"87.75","Age":"59","BMI":"36.36363636","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-177,  H-104.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-142",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"9","Age":"59","BMI":"31.31804326","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-133,  H-142.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-169",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"7.5","Age":"59","BMI":"29.21875","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-159,  H-169.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-149",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"65","Age":"59","BMI":"28.42975207","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-120,  H-149.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-23",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"71.15","Age":"59","BMI":"25.12614048","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-97,  H-23.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-232",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"25.5","Age":"59","BMI":"23.5546875","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-233,  H-232.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-16",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"62.25","Age":"59","BMI":"20.40179453","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-63,  H-16.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-36",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"91.5","Age":"60","BMI":"35.63550296","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-86,  H-36.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-127",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"79.2","Age":"60","BMI":"31.3671875","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-188,  H-127.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-130",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"69.5","Age":"60","BMI":"31.11603419","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-185,  H-130.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-11",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"57","Age":"60","BMI":"29.66994205","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-55,  H-11.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-250",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"Black"},
+"Additional sample data":{"ADI":"26","Age":"60","BMI":"29.65637551","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-201,  H-250.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-163",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"70.17","Age":"60","BMI":"29.06574394","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-147,  H-163.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-1",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"53","Age":"60","BMI":"28.94169685","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-79,  H-1.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-202",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"29.6","Age":"60","BMI":"24.46719413","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-234,  H-202.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-120",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"70","Age":"60","BMI":"24.31066012","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-165,  H-120.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-219",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"33.6","Age":"60","BMI":"22.19752747","Tumor grade":"Grade III","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-241,  H-219.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-80",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"58.6","Age":"60","BMI":"19.63568502","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-51,  H-80.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-78",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"33.6","Age":"61","BMI":"34.50327186","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-65,  H-78.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-13",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"18.5","Age":"61","BMI":"31.11603419","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-64,  H-13.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-56",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"61.33","Age":"61","BMI":"30.1953125","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-30,  H-56.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-201",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"12.67","Age":"61","BMI":"30.17177928","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-235,  H-201.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-197",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"White"},
+"Additional sample data":{"ADI":"75.98","Age":"61","BMI":"28.26652844","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-156,  H-197.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-215",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"10","Age":"61","BMI":"20.43449285","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-247,  H-215.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-187",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"26.6","Age":"62","BMI":"34.88755085","Tumor grade":"Grade III","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-187,  H-187.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-185",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"41.2","Age":"62","BMI":"34.82700808","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-117,  H-185.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-194",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"21","Age":"62","BMI":"31.54174333","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-151,  H-194.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-55",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"94","Age":"62","BMI":"30.1171875","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-69,  H-55.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-238",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"4.33","Age":"62","BMI":"28.52514641","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-212,  H-238.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-24",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"71.8","Age":"62","BMI":"27.02701769","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-82,  H-24.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-143",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"55","Age":"63","BMI":"45.86419753","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-119,  H-143.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-122",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"53.86","Age":"63","BMI":"42.07063712","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-190,  H-122.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-180",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"White"},
+"Additional sample data":{"ADI":"71.67","Age":"63","BMI":"35.55053949","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-103,  H-180.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-6",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"46.33","Age":"63","BMI":"34.62836987","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-20,  H-6.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-75",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"48.5","Age":"63","BMI":"34.5758138","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-48,  H-75.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-109",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"60.33","Age":"63","BMI":"31.39408284","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-200,  H-109.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-179",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"67.75","Age":"63","BMI":"30.6366219","Tumor grade":"Grade III","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-123,  H-179.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-103",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"69.17","Age":"63","BMI":"27.6816609","Tumor grade":"Grade III","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-178,  H-103.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-86",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"48.4","Age":"63","BMI":"27.27928217","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-99,  H-86.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-28",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"46.5","Age":"64","BMI":"46.64086424","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-91,  H-28.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-193",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"62","Age":"64","BMI":"44.72714264","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-189,  H-193.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-17",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"46.5","Age":"64","BMI":"40.31242126","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-94,  H-17.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-211",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"32","Age":"64","BMI":"38.72426016","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-223,  H-211.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-106",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"70.75","Age":"64","BMI":"37.98397651","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-101,  H-106.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-224",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"White"},
+"Additional sample data":{"ADI":"71.5","Age":"64","BMI":"33.27462276","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-226,  H-224.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-70",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"70","Age":"64","BMI":"29.16666667","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-5,  H-70.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-65",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"46","Age":"64","BMI":"28.33166082","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-54,  H-65.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-42",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"44","Age":"64","BMI":"27.6953125","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-16,  H-42.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-4",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"48","Age":"64","BMI":"27.4609375","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-52,  H-4.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-147",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"40.75","Age":"64","BMI":"26.15766704","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-121,  H-147.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-114",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"60","Age":"64","BMI":"23.08810047","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-161,  H-114.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-168",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"10.99","Age":"64","BMI":"22.49768569","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-195,  H-168.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-69",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"62.5","Age":"64","BMI":"19.99412283","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-1,  H-69.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-239",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"12.5","Age":"64","BMI":"16.30487409","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-243,  H-239.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-110",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"60.33","Age":"65","BMI":"41.80577733","Tumor grade":"Grade III","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-154,  H-110.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-38",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"Black"},
+"Additional sample data":{"ADI":"26.5","Age":"65","BMI":"39.21563212","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-92,  H-38.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-26",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"69.25","Age":"65","BMI":"38.62123775","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-89,  H-26.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-41",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"Black"},
+"Additional sample data":{"ADI":"17","Age":"65","BMI":"36.77333353","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-72,  H-41.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-91",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"49.75","Age":"65","BMI":"35.64049587","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-19,  H-91.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-151",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"36.5","Age":"65","BMI":"32.8125","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-199,  H-151.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-223",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"57","Age":"65","BMI":"27.109375","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-225,  H-223.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-105",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"64","Age":"65","BMI":"24.27480369","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-148,  H-105.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-247",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"Black"},
+"Additional sample data":{"ADI":"28.5","Age":"66","BMI":"40.86872079","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-239,  H-247.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-131",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"82.5","Age":"66","BMI":"40.24943311","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-137,  H-131.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-27",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"46","Age":"66","BMI":"26.67105926","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-74,  H-27.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-96",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"44","Age":"67","BMI":"45.0364204","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-70,  H-96.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-90",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"40","Age":"67","BMI":"41.54006243","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-81,  H-90.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-208",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"45.24","Age":"67","BMI":"38.26398185","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-208,  H-208.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-182",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"53.5","Age":"67","BMI":"36.69589158","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-158,  H-182.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-234",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"39.2","Age":"67","BMI":"31.77047774","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-245,  H-234.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-153",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"75.5","Age":"67","BMI":"28.828125","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-130,  H-153.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-138",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"Black"},
+"Additional sample data":{"ADI":"8.5","Age":"67","BMI":"24.68319559","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-172,  H-138.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-154",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"76","Age":"67","BMI":"23.91883029","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-167,  H-154.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-126",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"79.5","Age":"68","BMI":"42.578125","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-155,  H-126.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-62",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"36.25","Age":"68","BMI":"40.36366044","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-39,  H-62.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-107",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"60","Age":"69","BMI":"44.18719877","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-126,  H-107.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-123",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"52","Age":"69","BMI":"25.88340298","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-109,  H-123.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-116",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"70","Age":"69","BMI":"24.01664932","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-162,  H-116.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-249",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"22","Age":"70","BMI":"33.549711","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-232,  H-249.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-49",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"77.33","Age":"70","BMI":"31.63289504","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-7,  H-49.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-181",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"16.01","Age":"70","BMI":"31.24995105","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-175,  H-181.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-52",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"71.8","Age":"70","BMI":"31.1634349","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-29,  H-52.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-10",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"40","Age":"70","BMI":"30.00952747","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-78,  H-10.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-135",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"77.8","Age":"70","BMI":"28.88663086","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-115,  H-135.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-98",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"94","Age":"70","BMI":"24.53703704","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-87,  H-98.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-230",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"28.33","Age":"70","BMI":"21.86513249","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-219,  H-230.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-214",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"47.6","Age":"70","BMI":"20.33547174","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-202,  H-214.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-48",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"40","Age":"71","BMI":"31.84385067","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-90,  H-48.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-14",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"White"},
+"Additional sample data":{"ADI":"55","Age":"71","BMI":"27.33141561","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-44,  H-14.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-18",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"Black"},
+"Additional sample data":{"ADI":"31","Age":"71","BMI":"26.50661561","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-3,  H-18.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-209",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"12.67","Age":"71","BMI":"21.62847331","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-238,  H-209.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-178",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"6.14","Age":"71","BMI":"21.46815334","Tumor grade":"Grade III","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-125,  H-178.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-113",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"87","Age":"72","BMI":"36.39579962","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-174,  H-113.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-184",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"6","Age":"72","BMI":"32.50688705","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-106,  H-184.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-32",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"71.8","Age":"72","BMI":"29.53260344","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-57,  H-32.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-236",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"9.67","Age":"72","BMI":"28.71550024","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-237,  H-236.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-39",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"57.4","Age":"72","BMI":"27.51892505","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-6,  H-39.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-47",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"29.75","Age":"72","BMI":"27.51484793","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-47,  H-47.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-196",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"24","Age":"72","BMI":"27.02007749","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-163,  H-196.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-15",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T3","Race":"Black"},
+"Additional sample data":{"ADI":"70","Age":"72","BMI":"26.56588561","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-26,  H-15.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-20",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"42","Age":"72","BMI":"25.85600123","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-27,  H-20.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-233",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"6.14","Age":"72","BMI":"19.95743636","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-220,  H-233.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-177",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"28.6","Age":"73","BMI":"43.13429075","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-140,  H-177.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-172",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"48.5","Age":"73","BMI":"26.92622628","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-134,  H-172.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-220",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"10.33","Age":"73","BMI":"25.57505115","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-217,  H-220.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-203",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"25","Age":"74","BMI":"33.10815044","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-248,  H-203.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-189",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"22.13","Age":"75","BMI":"30.86262892","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-145,  H-189.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-170",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"Black"},
+"Additional sample data":{"ADI":"19.17","Age":"75","BMI":"27.35933163","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-169,  H-170.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-212",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"25.75","Age":"75","BMI":"26.96455097","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-204,  H-212.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-158",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T2","Race":"Black"},
+"Additional sample data":{"ADI":"59","Age":"76","BMI":"37.109375","Tumor grade":"Grade I","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-128,  H-158.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-133",
+"Factors":{"Sample source":"Plasma","Group":"case","ADI Tertile":"T1","Race":"Black"},
+"Additional sample data":{"ADI":"17.67","Age":"77","BMI":"30.44901953","Tumor grade":"Grade II","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-197,  H-133.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-205",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T3","Race":"White"},
+"Additional sample data":{"ADI":"98","Age":"77","BMI":"25.25630355","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-240,  H-205.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-217",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"30.98","Age":"79","BMI":"32.35423571","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-246,  H-217.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"H-221",
+"Factors":{"Sample source":"Plasma","Group":"control","ADI Tertile":"T1","Race":"White"},
+"Additional sample data":{"ADI":"28","Age":"80","BMI":"23.56730709","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-209,  H-221.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-1",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-0.01 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-2",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-0.01 (3).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-3",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-0.01.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-4",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-0.05 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-5",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-0.05 (3).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-6",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-0.05.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-7",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-0.1 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-8",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-0.1 (3).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-9",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-0.1.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-10",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-0.5 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-11",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-0.5 (3).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-12",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-0.5.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-13",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-1 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-14",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-1 (3).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-15",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-10 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-16",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-10 (3).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-17",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-10.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-18",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-100 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-19",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-100 (3).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-20",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-100.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-21",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-2 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-22",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-2 (3).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-23",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-20 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-24",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-20 (3).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-25",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-20.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-26",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-200 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-27",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-200 (3).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-28",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-200.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-29",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-5 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-30",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-5 (3).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-31",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-5.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-32",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-50 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-33",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-50 (3).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-34",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-50.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-35",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-500 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-36",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-500 (3).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-37",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-500.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-38",
+"Factors":{"Sample source":"NA","Group":"SRM","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-BioIVT-1 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-39",
+"Factors":{"Sample source":"NA","Group":"SRM","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-BioIVT-1 (3).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-40",
+"Factors":{"Sample source":"NA","Group":"SRM","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-BioIVT-1 (4).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-41",
+"Factors":{"Sample source":"NA","Group":"SRM","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-BioIVT-1.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-42",
+"Factors":{"Sample source":"NA","Group":"SRM","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-BioIVT-2 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-43",
+"Factors":{"Sample source":"NA","Group":"SRM","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-BioIVT-2.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-44",
+"Factors":{"Sample source":"NA","Group":"SRM","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-BioIVT-3 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-45",
+"Factors":{"Sample source":"NA","Group":"Instrument blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-BioIVT-3.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-46",
+"Factors":{"Sample source":"NA","Group":"Instrument blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-Instrument blank (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-47",
+"Factors":{"Sample source":"NA","Group":"IS blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-Instrument blank.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-48",
+"Factors":{"Sample source":"NA","Group":"IS blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-IS blank (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-49",
+"Factors":{"Sample source":"NA","Group":"IS blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-IS blank (3).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-50",
+"Factors":{"Sample source":"NA","Group":"SRM","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-IS blank.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-51",
+"Factors":{"Sample source":"NA","Group":"SRM","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-NIST 1950-1 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-52",
+"Factors":{"Sample source":"NA","Group":"SRM","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-NIST 1950-1.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-53",
+"Factors":{"Sample source":"NA","Group":"SRM","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-NIST 1950-2.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-54",
+"Factors":{"Sample source":"NA","Group":"SRM","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-NIST 1950-3 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-55",
+"Factors":{"Sample source":"NA","Group":"QC","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-NIST 1950-3.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-56",
+"Factors":{"Sample source":"NA","Group":"QC","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-QC 20 ng_ml (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-57",
+"Factors":{"Sample source":"NA","Group":"QC","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-QC 20 ng_ml.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-58",
+"Factors":{"Sample source":"NA","Group":"QC","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-QC 500 ng_ml (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-59",
+"Factors":{"Sample source":"NA","Group":"QC","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-QC 500 ng_ml.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-60",
+"Factors":{"Sample source":"NA","Group":"Solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-solvent blank (10).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-61",
+"Factors":{"Sample source":"NA","Group":"Solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-solvent blank (11).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-62",
+"Factors":{"Sample source":"NA","Group":"Solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-solvent blank (12).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-63",
+"Factors":{"Sample source":"NA","Group":"Solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-solvent blank (13).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-64",
+"Factors":{"Sample source":"NA","Group":"Solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-solvent blank (14).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-65",
+"Factors":{"Sample source":"NA","Group":"Solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-solvent blank (15).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-66",
+"Factors":{"Sample source":"NA","Group":"Solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-solvent blank (16).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-67",
+"Factors":{"Sample source":"NA","Group":"Solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-solvent blank (17).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-68",
+"Factors":{"Sample source":"NA","Group":"Solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-solvent blank (18).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-69",
+"Factors":{"Sample source":"NA","Group":"Solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-solvent blank (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-70",
+"Factors":{"Sample source":"NA","Group":"Solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-solvent blank (3).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-71",
+"Factors":{"Sample source":"NA","Group":"Solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-solvent blank (4).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-72",
+"Factors":{"Sample source":"NA","Group":"Solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-solvent blank (5).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-73",
+"Factors":{"Sample source":"NA","Group":"Solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-solvent blank (6).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-74",
+"Factors":{"Sample source":"NA","Group":"Solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-solvent blank (7).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-75",
+"Factors":{"Sample source":"NA","Group":"Solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-solvent blank (8).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-76",
+"Factors":{"Sample source":"NA","Group":"Solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-solvent blank (9).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-77",
+"Factors":{"Sample source":"NA","Group":"Solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_022124-solvent blank.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-78",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-0.01 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-79",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-0.01.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-80",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-0.05 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-81",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-0.05.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-82",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-0.1 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-83",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-0.1.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-84",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-0.5 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-85",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-0.5.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-86",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-1 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-87",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-1.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-88",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-10 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-89",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-10.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-90",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-100 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-91",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-100.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-92",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-2 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-93",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-20 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-94",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-20.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-95",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-200 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-96",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-200.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-97",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-5 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-98",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-5.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-99",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-50 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-100",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-50.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-101",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-500 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-102",
+"Factors":{"Sample source":"NA","Group":"Calibration Curve Internal Standard","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-500.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-103",
+"Factors":{"Sample source":"NA","Group":"SRM","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-BioIVT-2 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-104",
+"Factors":{"Sample source":"NA","Group":"SRM","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-BioIVT-2.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-105",
+"Factors":{"Sample source":"NA","Group":"SRM","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-BioIVT-3 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-106",
+"Factors":{"Sample source":"NA","Group":"SRM","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-BioIVT-3.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-107",
+"Factors":{"Sample source":"NA","Group":"Instrument blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-Instrument blank.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-108",
+"Factors":{"Sample source":"NA","Group":"IS blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-IS blank (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-109",
+"Factors":{"Sample source":"NA","Group":"IS blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-IS blank.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-110",
+"Factors":{"Sample source":"NA","Group":"SRM","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-NIST 1950-1.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-111",
+"Factors":{"Sample source":"NA","Group":"SRM","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-NIST 1950-2 (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-112",
+"Factors":{"Sample source":"NA","Group":"SRM","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-NIST 1950-2.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-113",
+"Factors":{"Sample source":"NA","Group":"QC","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-QC 500 ng_mL.mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-114",
+"Factors":{"Sample source":"NA","Group":"solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-solvent blank (10).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-115",
+"Factors":{"Sample source":"NA","Group":"solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-solvent blank (11).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-116",
+"Factors":{"Sample source":"NA","Group":"solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-solvent blank (2).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-117",
+"Factors":{"Sample source":"NA","Group":"solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-solvent blank (3).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-118",
+"Factors":{"Sample source":"NA","Group":"solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-solvent blank (4).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-119",
+"Factors":{"Sample source":"NA","Group":"solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-solvent blank (5).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-120",
+"Factors":{"Sample source":"NA","Group":"solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-solvent blank (6).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-121",
+"Factors":{"Sample source":"NA","Group":"solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-solvent blank (7).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-122",
+"Factors":{"Sample source":"NA","Group":"solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-solvent blank (8).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-123",
+"Factors":{"Sample source":"NA","Group":"solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-solvent blank (9).mzML"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"NS-124",
+"Factors":{"Sample source":"NA","Group":"solvent blank","ADI Tertile":"NA","Race":"NA"},
+"Additional sample data":{"ADI":"-","Age":"NA","BMI":"NA","Tumor grade":"NA","RAW_FILE_NAME(Raw File Name)":"Steroids_Heath_batch2_022224-solvent blank.mzML"}
+}
+],
+"COLLECTION":{"COLLECTION_SUMMARY":"Control subjects donated non-fasting whole blood specimen at the time of study enrollment. Breast cancer diagnosis was confirmed via biopsy. Non-fasting whole blood was collected from Black and white breast cancer cases after tumor biopsy but prior to breast surgery or any other breast cancer treatment. Whole blood collected in serum separator tubes was allowed to clot for 40 min at room temperature, and plasma was separated by centrifugation within 1 h of collection (1680g for 10 min at room temperature in a horizontal rotor, tabletop centrifuge). Aliquots of plasma were immediately frozen at − 20 °C and transferred to − 80 °C within 4 weeks.","SAMPLE_TYPE":"Blood (plasma)"},
+
+"TREATMENT":{"TREATMENT_SUMMARY":"All cases and controls were untreated."},
+
+"SAMPLEPREP":{"SAMPLEPREP_SUMMARY":"Steroids chemical standards used to create calibration curves for quantification were acquired from Cayman chemical (Ann Arbor, MI, USA) and Sigma Aldrich (St. Louis, MO, USA). At the beginning of the extraction process, 10 μL of 1 μg/mL of labeled surrogate internal standards (testosterone-d3, estradiol-d4, progesterone-d9, corticosterone-d8, hydrocortisone-d4, aldosterone-d4, dehydroepiandrosterone –sulfate-d6 ) were spiked into each tube prior to adding 25 µL plasma and 65 µL of methanol. After vortexing, the samples were centrifuged and 50 µL of supernatant was transferred to an LC vial containing 5 µL of 10 ng/mL of instrument standard (CUDA and PUHA). Vials were stored at 20 °C prior to LC-MS analysis.","EXTRACTION_METHOD":"Protein precipitation extraction"},
+
+"CHROMATOGRAPHY":{"CHROMATOGRAPHY_SUMMARY":"10 ul of extract was injected and analyzed with an Agilent 1290 Infinity II UHPLC system (Agilent, Santa Clara, CA, USA), with a Waters Acquity C18 BEH 2.1 x 150mm, 1.7um (Waters Milford, MA, USA); Column Temp - 60°C; flow rate 450 μL/min. Mobile phases consisted of 0.1% formic acid in water (A) and 0.1% formic acid in acetonitrile (B).","CHROMATOGRAPHY_TYPE":"Reversed phase","INSTRUMENT_NAME":"Agilent 1290 Infinity II","COLUMN_NAME":"Waters ACQUITY UPLC BEH C18 (150 x 2.1mm,1.7um)","SOLVENT_A":"100% water; 0.1% formic","SOLVENT_B":"100% acetonitrile; 0.1% formic acid","FLOW_GRADIENT":"0 - 0.25 min - 10%B; 0.25 - 0.5min - 20%B; 0.5 - 0.75min - 22.5%B; 0.75 - 13.3min - 70%B; 13.3 - 14.4min - 95%B; 14.4 - 15,in - 10%B; 15-16min - 10%B","FLOW_RATE":"450 μL/min","COLUMN_TEMPERATURE":"60"},
+
+"ANALYSIS":{"ANALYSIS_TYPE":"MS"},
+
+"MS":{"INSTRUMENT_NAME":"ABI Sciex Triple Quad 6500+","INSTRUMENT_TYPE":"Triple quadrupole","MS_TYPE":"ESI","ION_MODE":"POSITIVE","MS_COMMENTS":"Data was collected on a Sciex 6500+ triple quadrupole mass spectrometer (Sciex, Framingham, MA, USA). Data was acquired in both positive and negative multiple reaction monitoring (MRM) mode. Calibration points with &gt;20% deviation between the known and back-calculated concentrations were excluded to ensure curve accuracy. The concentrations of analytes in subject samples were determined using the resulting calibration curves. Limits of quantitation (LOQ) were established as the lowest concentration at which the analyte could be reliably quantified with acceptable accuracy and precision, defined as a deviation within ±20% of the nominal value. Quantification accuracy was further verified using certified reference values from NIST SRM 1950."},
+
+"MS_METABOLITE_DATA":{
+"Units":"ng/mL of plasma, except estradiol (in peak area) and testosterone (in peak area ratio)",
+
+"Data":[{"Metabolite":"11-ketotestosterone","H-1":"0.2724","H-2":"0.3544","H-3":"0.144","H-4":"0.2636","H-5":"0.1288","H-6":"0.186","H-7":"0.5452","H-8":"0.312","H-9":"0.1836","H-10":"0.2428","H-11":"0.2144","H-12":"0.6516","H-13":"0.3068","H-14":"0.1672","H-15":"0.6372","H-16":"0.2244","H-17":"0.3276","H-18":"0.2276","H-19":"0.3804","H-20":"0.8812","H-21":"0.2876","H-22":"0.7108","H-23":"0.396","H-24":"0.2056","H-25":"0.7488","H-26":"0.1996","H-27":"0.4984","H-28":"0.324","H-29":"0.1564","H-30":"0.4488","H-31":"0.3688","H-32":"0.4444","H-33":"0.6516","H-34":"0.376","H-35":"0.3376","H-36":"0.5284","H-37":"0.5588","H-38":"0.3688","H-39":"0.4736","H-40":"0.2636","H-41":"0.3716","H-42":"0.2456","H-43":"0.2016","H-45":"0.3756","H-46":"0.2132","H-47":"0.1584","H-48":"0.5696","H-49":"0.244","H-50":"0.342","H-51":"0.31","H-52":"0.4632","H-54":"0.1872","H-55":"0.3812","H-56":"0.2864","H-58":"0.4304","H-59":"0.4632","H-60":"0.4244","H-61":"0.2368","H-62":"0.2808","H-63":"0.4808","H-64":"0.2104","H-65":"0.0976","H-66":"0.1056","H-167":"0.3144","H-168":"0.5016","H-169":"0.5772","H-170":"0.013","H-171":"0.3332","H-172":"0.2576","H-173":"0.2532","H-174":"0.464","H-175":"0.6604","H-176":"0.3416","H-177":"0.3012","H-178":"0.196","H-179":"0.2532","H-180":"0.282","H-181":"0.5248","H-182":"0.7492","H-183":"0.404","H-184":"0.6908","H-185":"0.3928","H-186":"0.0988","H-187":"0.2608","H-188":"0.5468","H-189":"0.1896","H-190":"0.2736","H-193":"0.6104","H-194":"0.3092","H-195":"0.3176","H-196":"0.2752","H-197":"0.374","H-198":"0.3388","H-199":"0.3728","H-201":"0.2048","H-202":"0.3384","H-203":"0.282","H-204":"0.3492","H-205":"0.2992","H-206":"0.3808","H-208":"0.3672","H-209":"0.1952","H-210":"0.1872","H-211":"0.3356","H-212":"0.4124","H-213":"0.4108","H-214":"0.2308","H-215":"0.244","H-216":"0.4472","H-217":"0.3752","H-219":"0.3212","H-220":"0.3488","H-221":"0.1788","H-222":"0.5008","H-223":"0.2564","H-224":"0.1536","H-225":"0.2372","H-227":"0.2832","H-228":"0.2524","H-229":"1.8364","H-230":"0.9796","H-231":"0.013","H-232":"0.5072","H-233":"0.3284","H-234":"0.1808","H-235":"0.7852","H-236":"0.013","H-237":"0.2192","H-238":"0.3692","H-239":"0.3516","H-240":"0.286","H-241":"0.448","H-245":"0.86","H-247":"0.4132","H-248":"0.3776","H-249":"0.144","H-67":"0.2956","H-68":"0.4852","H-250":"0.3416","H-69":"0.222","H-70":"0.5436","H-71":"0.6352","H-72":"0.5172","H-73":"0.266","H-74":"0.2752","H-75":"0.4544","H-76":"0.2216","H-77":"0.4996","H-78":"0.4576","H-79":"0.6712","H-80":"0.2672","H-81":"0.6116","H-82":"0.414","H-83":"0.2112","H-84":"0.2344","H-85":"0.2728","H-86":"0.6104","H-87":"0.43","H-88":"0.4688","H-89":"0.0824","H-90":"0.5096","H-91":"0.732","H-92":"0.0632","H-93":"0.4156","H-94":"0.1452","H-95":"0.1892","H-96":"0.3416","H-97":"0.4016","H-98":"0.2132","H-99":"0.1836","H-100":"0.3148","H-101":"0.0992","H-102":"1.0068","H-103":"0.3356","H-104":"0.38","H-105":"0.1612","H-106":"0.1052","H-107":"0.4604","H-108":"0.5996","H-109":"0.5748","H-110":"0.2356","H-111":"0.514","H-112":"0.3704","H-113":"0.5844","H-114":"0.5336","H-115":"0.1276","H-116":"0.672","H-117":"0.2516","H-118":"0.2724","H-119":"0.3592","H-120":"0.1672","H-121":"0.172","H-122":"0.5568","H-123":"0.4588","H-126":"0.4528","H-127":"0.3964","H-128":"0.5752","H-129":"0.3148","H-130":"0.4944","H-131":"0.4348","H-132":"0.4076","H-133":"0.5188","H-134":"0.3576","H-135":"0.8508","H-136":"0.8052","H-137":"0.4716","H-138":"0.2376","H-139":"0.2832","H-140":"0.3956","H-141":"1.9224","H-142":"0.4184","H-143":"0.7664","H-144":"0.388","H-145":"0.5228","H-146":"0.418","H-147":"0.3996","H-148":"0.3616","H-149":"0.286","H-150":"0.4196","H-151":"0.316","H-153":"0.5472","H-154":"0.4468","H-155":"0.3308","H-156":"0.2136","H-158":"0.6236","H-159":"0.356","H-160":"0.3368","H-161":"0.2668","H-162":"0.5072","H-163":"0.8288","H-164":"0.1508","H-243":"0.1516"},{"Metabolite":"Androstenedione","H-1":"0.2968","H-2":"0.4824","H-3":"0.4044","H-4":"0.3216","H-5":"0.8208","H-6":"0.32","H-7":"1.322","H-8":"0.5076","H-9":"0.4756","H-10":"0.3948","H-11":"0.384","H-12":"0.7324","H-13":"0.3176","H-14":"0.0768","H-15":"0.9608","H-16":"0.3788","H-17":"0.4372","H-18":"0.3064","H-19":"0.5548","H-20":"0.5496","H-21":"0.5516","H-22":"0.4844","H-23":"0.4356","H-24":"0.4316","H-25":"0.4808","H-26":"0.298","H-27":"0.406","H-28":"0.6364","H-29":"0.3608","H-30":"0.3836","H-31":"0.782","H-32":"0.3388","H-33":"0.4488","H-34":"0.3828","H-35":"1.1124","H-36":"0.946","H-37":"0.678","H-38":"0.5984","H-39":"0.4224","H-40":"0.3792","H-41":"0.6312","H-42":"0.3924","H-43":"0.5224","H-45":"0.406","H-46":"0.6024","H-47":"0.428","H-48":"0.5036","H-49":"0.3112","H-50":"0.5292","H-51":"0.6464","H-52":"0.7588","H-54":"0.5724","H-55":"0.6308","H-56":"0.4328","H-58":"0.83","H-59":"0.6084","H-60":"0.808","H-61":"0.5","H-62":"0.4744","H-63":"0.6784","H-64":"0.7008","H-65":"0.2256","H-66":"0.1308","H-167":"0.9452","H-168":"0.5464","H-169":"0.8036","H-170":"0.1028","H-171":"0.5324","H-172":"0.2492","H-173":"0.3184","H-174":"0.3752","H-175":"0.276","H-176":"0.966","H-177":"0.5068","H-178":"0.3368","H-179":"0.2856","H-180":"0.494","H-181":"0.5416","H-182":"0.618","H-183":"1.2736","H-184":"0.4756","H-185":"0.648","H-186":"0.4824","H-187":"0.434","H-188":"0.6108","H-189":"0.2996","H-190":"1.7804","H-193":"1.0336","H-194":"0.9956","H-195":"0.786","H-196":"0.5032","H-197":"0.6544","H-198":"0.4656","H-199":"0.7976","H-201":"0.3724","H-202":"0.7328","H-203":"0.4372","H-204":"1.16","H-205":"0.2","H-206":"0.3644","H-208":"0.4008","H-209":"0.3068","H-210":"0.2272","H-211":"0.6028","H-212":"0.576","H-213":"0.2684","H-214":"0.6788","H-215":"0.2664","H-216":"0.444","H-217":"0.3664","H-219":"0.2392","H-220":"0.2356","H-221":"0.198","H-222":"0.5416","H-223":"0.5652","H-224":"0.2212","H-225":"0.5588","H-227":"0.7168","H-228":"0.656","H-229":"1.1692","H-230":"0.62","H-231":"0.3448","H-232":"0.576","H-233":"0.6796","H-234":"0.4956","H-235":"1.6532","H-236":"0.2352","H-237":"0.9652","H-238":"0.3148","H-239":"0.58","H-240":"0.7232","H-241":"0.63","H-245":"0.676","H-247":"0.4672","H-248":"0.5568","H-249":"0.7352","H-67":"0.8488","H-68":"3.846","H-250":"0.5744","H-69":"0.6996","H-70":"0.3604","H-71":"0.9576","H-72":"0.1832","H-73":"0.562","H-74":"0.4916","H-75":"0.4252","H-76":"0.4868","H-77":"0.6208","H-78":"0.3516","H-79":"0.8648","H-80":"0.3876","H-81":"0.67","H-82":"0.5012","H-83":"0.7272","H-84":"0.4488","H-85":"0.3944","H-86":"0.5384","H-87":"0.6632","H-88":"0.5468","H-89":"0.284","H-90":"0.6256","H-91":"0.518","H-92":"0.412","H-93":"0.276","H-94":"0.3416","H-95":"0.4172","H-96":"0.5508","H-97":"1.1768","H-98":"0.1272","H-99":"0.288","H-100":"0.4804","H-101":"0.5088","H-102":"0.562","H-103":"0.3768","H-104":"0.6824","H-105":"0.2484","H-106":"0.2052","H-107":"0.2928","H-108":"0.492","H-109":"0.5024","H-110":"0.5924","H-111":"0.8972","H-112":"0.8604","H-113":"0.3008","H-114":"0.5788","H-115":"0.4132","H-116":"0.4276","H-117":"0.5956","H-118":"0.4172","H-119":"0.5592","H-120":"0.43","H-121":"0.696","H-122":"0.6788","H-123":"0.3492","H-126":"0.4304","H-127":"0.414","H-128":"0.2848","H-129":"0.3388","H-130":"0.5068","H-131":"2.2716","H-132":"0.7028","H-133":"0.2812","H-134":"0.914","H-135":"0.7884","H-136":"0.4876","H-137":"0.3808","H-138":"0.77","H-139":"0.4992","H-140":"0.688","H-141":"2.8736","H-142":"0.61","H-143":"0.4344","H-144":"0.6248","H-145":"0.5932","H-146":"1.2012","H-147":"0.6636","H-148":"0.628","H-149":"0.4216","H-150":"0.6132","H-151":"0.2572","H-153":"0.644","H-154":"0.918","H-155":"0.5164","H-156":"0.41","H-158":"0.634","H-159":"0.5824","H-160":"0.7048","H-161":"0.7832","H-162":"1.3076","H-163":"0.4208","H-164":"0.4364","H-243":"0.6412"},{"Metabolite":"Testosterone","H-1":"2.05E-03","H-2":"2.82E-03","H-3":"2.02E-03","H-4":"2.58E-03","H-5":"3.56E-03","H-6":"1.62E-03","H-7":"2.52E-03","H-8":"3.70E-03","H-9":"2.50E-03","H-10":"4.51E-03","H-11":"1.50E-03","H-12":"3.92E-03","H-13":"1.65E-03","H-14":"4.85E-03","H-15":"4.10E-03","H-16":"2.57E-03","H-17":"1.66E-03","H-18":"2.75E-03","H-19":"2.83E-03","H-20":"2.70E-03","H-21":"9.31E-04","H-22":"2.79E-03","H-23":"3.01E-03","H-24":"3.54E-03","H-25":"1.81E-03","H-26":"2.29E-03","H-27":"8.16E-03","H-28":"4.18E-03","H-29":"4.62E-03","H-30":"3.43E-03","H-31":"3.50E-03","H-32":"2.59E-03","H-33":"3.18E-03","H-34":"3.34E-03","H-35":"4.14E-03","H-36":"6.26E-03","H-37":"3.24E-03","H-38":"1.62E-03","H-39":"1.96E-03","H-40":"8.04E-03","H-41":"3.56E-03","H-42":"4.78E-03","H-43":"7.56E-03","H-45":"4.68E-03","H-46":"2.20E-03","H-47":"1.75E-03","H-48":"2.23E-03","H-49":"5.00E-03","H-50":"6.28E-03","H-51":"3.32E-03","H-52":"5.55E-03","H-54":"3.04E-03","H-55":"2.33E-03","H-56":"2.03E-03","H-58":"4.31E-03","H-59":"5.77E-03","H-60":"5.87E-03","H-61":"2.21E-03","H-62":"2.78E-03","H-63":"4.13E-03","H-64":"3.77E-03","H-65":"4.93E-03","H-66":"4.02E-03","H-167":"2.02E-03","H-168":"2.30E-03","H-169":"2.69E-03","H-170":"2.87E-03","H-171":"1.84E-03","H-172":"2.01E-03","H-173":"2.58E-03","H-174":"5.06E-03","H-175":"1.08E-03","H-176":"3.64E-03","H-177":"1.84E-03","H-178":"2.58E-03","H-179":"1.14E-03","H-180":"2.31E-03","H-181":"2.00E-03","H-182":"2.03E-03","H-183":"9.30E-03","H-184":"2.03E-03","H-185":"2.66E-03","H-186":"2.70E-03","H-187":"3.84E-03","H-188":"1.38E-03","H-189":"2.57E-03","H-190":"4.19E-03","H-193":"2.42E-03","H-194":"2.54E-03","H-195":"1.74E-03","H-196":"2.14E-03","H-197":"1.78E-03","H-198":"1.70E-03","H-199":"2.33E-03","H-201":"2.33E-03","H-202":"2.96E-03","H-203":"2.57E-03","H-204":"3.26E-03","H-205":"4.15E-03","H-206":"1.74E-03","H-208":"2.03E-03","H-209":"2.32E-03","H-210":"2.08E-03","H-211":"2.67E-03","H-212":"1.75E-03","H-213":"2.39E-03","H-214":"2.88E-03","H-215":"4.69E-03","H-216":"1.85E-03","H-217":"1.54E-03","H-219":"1.34E-03","H-220":"1.67E-03","H-221":"2.90E-03","H-222":"1.23E-03","H-223":"2.48E-03","H-224":"1.82E-03","H-225":"1.97E-03","H-227":"2.93E-03","H-228":"5.83E-03","H-229":"1.91E-03","H-230":"2.71E-03","H-231":"2.93E-03","H-232":"2.17E-03","H-233":"1.54E-03","H-234":"9.60E-04","H-235":"3.34E-03","H-236":"2.02E-03","H-237":"2.82E-03","H-238":"1.92E-03","H-239":"1.44E-03","H-240":"1.75E-03","H-241":"1.96E-03","H-245":"1.48E-03","H-247":"5.65E-03","H-248":"3.48E-03","H-249":"1.84E-03","H-67":"1.91E-03","H-68":"7.33E-03","H-250":"3.67E-03","H-69":"3.05E-03","H-70":"3.41E-03","H-71":"3.53E-03","H-72":"2.87E-03","H-73":"5.90E-03","H-74":"1.42E-03","H-75":"2.74E-03","H-76":"3.18E-03","H-77":"2.19E-03","H-78":"3.70E-03","H-79":"3.90E-03","H-80":"3.62E-03","H-81":"4.44E-03","H-82":"7.71E-03","H-83":"6.72E-03","H-84":"6.33E-03","H-85":"2.24E-03","H-86":"2.10E-03","H-87":"5.01E-03","H-88":"2.04E-03","H-89":"4.27E-03","H-90":"9.23E-03","H-91":"6.04E-03","H-92":"3.57E-03","H-93":"5.38E-03","H-94":"1.69E-03","H-95":"2.97E-03","H-96":"3.44E-03","H-97":"3.41E-03","H-98":"7.08E-03","H-99":"6.75E-03","H-100":"2.17E-03","H-101":"4.25E-03","H-102":"5.18E-03","H-103":"3.91E-03","H-104":"2.27E-03","H-105":"1.92E-03","H-106":"2.79E-03","H-107":"1.87E-03","H-108":"3.78E-03","H-109":"4.03E-03","H-110":"4.89E-03","H-111":"2.89E-03","H-112":"2.54E-03","H-113":"2.79E-03","H-114":"2.88E-03","H-115":"1.79E-03","H-116":"4.43E-03","H-117":"2.31E-03","H-118":"4.02E-03","H-119":"4.42E-03","H-120":"1.95E-03","H-121":"3.03E-03","H-122":"2.92E-03","H-123":"1.44E-03","H-126":"5.60E-03","H-127":"3.06E-03","H-128":"1.23E-02","H-129":"3.47E-03","H-130":"2.08E-03","H-131":"5.80E-03","H-132":"2.55E-03","H-133":"1.45E-03","H-134":"2.09E-03","H-135":"2.98E-03","H-136":"2.76E-03","H-137":"1.64E-03","H-138":"4.34E-03","H-139":"2.44E-03","H-140":"2.06E-03","H-141":"4.00E-03","H-142":"2.55E-03","H-143":"2.61E-03","H-144":"1.37E-03","H-145":"4.51E-03","H-146":"3.65E-03","H-147":"6.74E-03","H-148":"5.28E-03","H-149":"1.81E-03","H-150":"3.55E-03","H-151":"1.39E-03","H-153":"1.51E-03","H-154":"4.20E-03","H-155":"2.04E-03","H-156":"4.47E-03","H-158":"3.31E-03","H-159":"2.67E-03","H-160":"2.61E-03","H-161":"4.00E-03","H-162":"1.91E-03","H-163":"4.66E-03","H-164":"4.11E-03","H-243":"2.35E-03"},{"Metabolite":"11-deoxycortisol","H-1":"0.4256","H-2":"0.2916","H-3":"0.2848","H-4":"0.3484","H-5":"0.4464","H-6":"0.1748","H-7":"0.2672","H-8":"0.246","H-9":"0.015","H-10":"0.5652","H-11":"0.2464","H-12":"0.3644","H-13":"0.6324","H-14":"0.2628","H-15":"0.736","H-16":"0.5732","H-17":"0.27","H-18":"0.2276","H-19":"0.34","H-20":"0.282","H-21":"0.2252","H-22":"0.378","H-23":"0.428","H-24":"0.5564","H-25":"0.2912","H-26":"0.2452","H-27":"0.314","H-28":"0.3936","H-29":"0.6784","H-30":"0.3416","H-31":"0.2032","H-32":"0.37","H-33":"0.1944","H-34":"0.3712","H-35":"0.2372","H-36":"0.228","H-37":"0.1624","H-38":"0.4048","H-39":"0.2188","H-40":"0.3832","H-41":"0.3832","H-42":"0.212","H-43":"0.7096","H-45":"0.2544","H-46":"0.015","H-47":"0.4388","H-48":"0.2984","H-49":"0.0892","H-50":"0.1472","H-51":"0.3452","H-52":"0.7908","H-54":"0.1788","H-55":"0.3872","H-56":"0.2192","H-58":"0.4228","H-59":"0.1512","H-60":"0.3508","H-61":"0.015","H-62":"0.2424","H-63":"0.3776","H-64":"0.3848","H-65":"0.3636","H-66":"0.3264","H-167":"0.2124","H-168":"0.6208","H-169":"0.556","H-170":"0.1856","H-171":"0.4572","H-172":"0.1804","H-173":"0.4624","H-174":"0.7496","H-175":"0.4296","H-176":"0.2856","H-177":"0.3472","H-178":"0.354","H-179":"0.3072","H-180":"0.2732","H-181":"0.2748","H-182":"0.2416","H-183":"0.8096","H-184":"1.0596","H-185":"0.3784","H-186":"0.015","H-187":"0.5892","H-188":"0.015","H-189":"0.254","H-190":"0.254","H-193":"0.4312","H-194":"1.0264","H-195":"0.334","H-196":"0.3636","H-197":"0.5576","H-198":"0.3124","H-199":"0.6024","H-201":"0.304","H-202":"0.178","H-203":"0.3592","H-204":"0.3824","H-205":"0.3512","H-206":"0.1496","H-208":"0.192","H-209":"0.1868","H-210":"0.3352","H-211":"0.3452","H-212":"0.3884","H-213":"0.015","H-214":"0.6804","H-215":"1.7772","H-216":"1.06","H-217":"0.284","H-219":"0.1964","H-220":"0.3492","H-221":"0.4964","H-222":"0.2008","H-223":"0.1788","H-224":"0.015","H-225":"0.5952","H-227":"0.3264","H-228":"0.2548","H-229":"1.2268","H-230":"0.7752","H-231":"0.1564","H-232":"0.4972","H-233":"0.6192","H-234":"0.176","H-235":"0.4508","H-236":"0.3152","H-237":"0.1456","H-238":"0.3104","H-239":"0.2292","H-240":"0.358","H-241":"0.5056","H-245":"0.5012","H-247":"0.3212","H-248":"0.648","H-249":"1.1396","H-67":"0.732","H-68":"0.736","H-250":"0.326","H-69":"0.392","H-70":"0.2904","H-71":"0.378","H-72":"0.1224","H-73":"0.138","H-74":"0.4444","H-75":"0.4696","H-76":"0.1876","H-77":"0.4472","H-78":"0.3288","H-79":"0.5864","H-80":"0.1728","H-81":"0.2384","H-82":"0.3368","H-83":"0.3996","H-84":"0.312","H-85":"0.3884","H-86":"0.316","H-87":"0.2892","H-88":"0.422","H-89":"0.1392","H-90":"0.4272","H-91":"0.3108","H-92":"0.2532","H-93":"0.3544","H-94":"0.276","H-95":"0.1804","H-96":"0.4636","H-97":"0.7552","H-98":"0.015","H-99":"0.2888","H-100":"0.3176","H-101":"0.2948","H-102":"0.272","H-103":"0.1752","H-104":"0.1424","H-105":"0.1472","H-106":"0.015","H-107":"0.272","H-108":"0.358","H-109":"0.5628","H-110":"0.176","H-111":"0.9544","H-112":"0.294","H-113":"0.0772","H-114":"0.3328","H-115":"0.232","H-116":"0.512","H-117":"0.1476","H-118":"0.5604","H-119":"0.2616","H-120":"0.1176","H-121":"0.3376","H-122":"0.256","H-123":"0.57","H-126":"0.2556","H-127":"0.336","H-128":"0.1792","H-129":"0.1752","H-130":"0.6448","H-131":"4.3316","H-132":"0.4684","H-133":"0.5036","H-134":"0.46","H-135":"0.692","H-136":"0.4568","H-137":"0.254","H-138":"0.4216","H-139":"0.6628","H-140":"0.3032","H-141":"1.228","H-142":"0.238","H-143":"0.4584","H-144":"0.3464","H-145":"0.4392","H-146":"0.2804","H-147":"0.2432","H-148":"0.398","H-149":"0.348","H-150":"0.198","H-151":"0.1204","H-153":"0.5988","H-154":"1.4676","H-155":"0.382","H-156":"0.2116","H-158":"0.2244","H-159":"0.2272","H-160":"0.3908","H-161":"0.6388","H-162":"0.566","H-163":"0.342","H-164":"0.494","H-243":"0.1368"},{"Metabolite":"Cortisol","H-1":"105.7392","H-2":"79.376","H-3":"44.064","H-4":"90.6356","H-5":"87.796","H-6":"61.3596","H-7":"97.7756","H-8":"84.0052","H-9":"52.6064","H-10":"92.7952","H-11":"101.2072","H-12":"56.5824","H-13":"34.3824","H-14":"55.3544","H-15":"87.4912","H-16":"116.3836","H-17":"59.2792","H-18":"53.2604","H-19":"99.1604","H-20":"118.54","H-21":"71.0464","H-22":"107.0868","H-23":"128.2304","H-24":"54.3508","H-25":"44.2648","H-26":"28.7956","H-27":"73.5876","H-28":"33.3896","H-29":"111.8912","H-30":"53.4404","H-31":"47.9276","H-32":"56.9112","H-33":"89.1536","H-34":"69.2616","H-35":"49.4632","H-36":"64.4044","H-37":"40.1244","H-38":"86.756","H-39":"57.4292","H-40":"77.9852","H-41":"69.8568","H-42":"55.2632","H-43":"167.8372","H-45":"66.628","H-46":"72.5644","H-47":"146.6324","H-48":"82.5308","H-49":"64.7648","H-50":"90.7812","H-51":"85.326","H-52":"205.94","H-54":"64.794","H-55":"116.5724","H-56":"91.2456","H-58":"54.5184","H-59":"69.0208","H-60":"105.732","H-61":"48.4036","H-62":"92.2132","H-63":"102.07","H-64":"70.5216","H-65":"45.452","H-66":"73.7292","H-167":"60.934","H-168":"135.6148","H-169":"194.0276","H-170":"8.9972","H-171":"62.2736","H-172":"49.9824","H-173":"111.694","H-174":"149.7184","H-175":"71.9212","H-176":"40.0492","H-177":"78.3756","H-178":"80.9652","H-179":"95.838","H-180":"61.05","H-181":"59.8884","H-182":"42.6504","H-183":"269.5404","H-184":"162.3452","H-185":"76.57","H-186":"10.5024","H-187":"120.4664","H-188":"52.8444","H-189":"40.9148","H-190":"165.7748","H-193":"62.4752","H-194":"180.7188","H-195":"73.1072","H-196":"68.3452","H-197":"83.9964","H-198":"112.6236","H-199":"163.9876","H-201":"94.994","H-202":"86.4712","H-203":"138.8556","H-204":"72.7472","H-205":"37.0396","H-206":"37.932","H-208":"57.7296","H-209":"60.4332","H-210":"167.1892","H-211":"64.1808","H-212":"55.398","H-213":"24.4752","H-214":"96.698","H-215":"188.104","H-216":"168.3028","H-217":"72.354","H-219":"27.1784","H-220":"46.1256","H-221":"71.4184","H-222":"59.3508","H-223":"28.0048","H-224":"39.85","H-225":"170.0844","H-227":"104.402","H-228":"317.0096","H-229":"96.7204","H-230":"115.624","H-231":"174.5848","H-232":"118.1832","H-233":"92.7328","H-234":"34.9804","H-235":"92.7908","H-236":"10.896","H-237":"44.5376","H-238":"66.7452","H-239":"85.37","H-240":"33.1472","H-241":"72.3132","H-245":"54.87","H-247":"45.2012","H-248":"104.752","H-249":"81.4216","H-67":"89.3024","H-68":"125.7348","H-250":"57.5604","H-69":"86.4456","H-70":"69.4388","H-71":"115.014","H-72":"27.7444","H-73":"58.2152","H-74":"79.9132","H-75":"124.4328","H-76":"56.244","H-77":"68.652","H-78":"51.4012","H-79":"177.5996","H-80":"94.1528","H-81":"61.3796","H-82":"68.6028","H-83":"70.3972","H-84":"132.6228","H-85":"34.0476","H-86":"71.4036","H-87":"78.9144","H-88":"84.8208","H-89":"4.7992","H-90":"98.2892","H-91":"46.3484","H-92":"49.2332","H-93":"37.4244","H-94":"65.372","H-95":"188.7824","H-96":"89.7296","H-97":"107.6328","H-98":"55.4256","H-99":"82.4784","H-100":"62.58","H-101":"6.7552","H-102":"78.5392","H-103":"70.188","H-104":"80.4268","H-105":"62.2036","H-106":"3.9932","H-107":"39.2412","H-108":"85.4844","H-109":"46.4624","H-110":"77.9648","H-111":"128.8504","H-112":"64.292","H-113":"65.9872","H-114":"68.658","H-115":"21.366","H-116":"74.35","H-117":"57.3584","H-118":"93.442","H-119":"69.318","H-120":"83.5192","H-121":"51.7172","H-122":"78.61","H-123":"41.0644","H-126":"59.79","H-127":"68.4064","H-128":"31.5428","H-129":"34.69","H-130":"69.7608","H-131":"204.7024","H-132":"94.458","H-133":"44.7492","H-134":"104.8284","H-135":"114.1196","H-136":"54.9112","H-137":"94.0244","H-138":"70.0868","H-139":"77.086","H-140":"55.642","H-141":"150.8464","H-142":"82.7916","H-143":"32.6824","H-144":"47.7572","H-145":"169.9328","H-146":"69.2016","H-147":"70.0412","H-148":"90.9744","H-149":"39.262","H-150":"66.4956","H-151":"33.4308","H-153":"89.2668","H-154":"143.8796","H-155":"66.9936","H-156":"31.4108","H-158":"74.4684","H-159":"39.7992","H-160":"45.2512","H-161":"150.2676","H-162":"95.844","H-163":"48.3632","H-164":"132.1596","H-243":"37.3668"},{"Metabolite":"Cortisone","H-1":"17.1628","H-2":"18.53","H-3":"8.4132","H-4":"19.1588","H-5":"21.8788","H-6":"10.0736","H-7":"22.7596","H-8":"15.172","H-9":"10.6036","H-10":"16.3212","H-11":"19.9372","H-12":"10.5992","H-13":"11.0316","H-14":"13.6548","H-15":"16.7328","H-16":"25.1912","H-17":"13.6508","H-18":"11.8912","H-19":"18.3888","H-20":"27.4368","H-21":"11.2488","H-22":"21.752","H-23":"30.4136","H-24":"12.2616","H-25":"16.4148","H-26":"6.7956","H-27":"18.8224","H-28":"8.7312","H-29":"18.734","H-30":"12.6916","H-31":"14.658","H-32":"14.5604","H-33":"18.898","H-34":"15.1892","H-35":"14.3152","H-36":"13.8364","H-37":"10.622","H-38":"14.8564","H-39":"13.0936","H-40":"15.8616","H-41":"14.0008","H-42":"12.408","H-43":"20.2044","H-45":"16.2944","H-46":"9.9448","H-47":"14.9052","H-48":"19.182","H-49":"15.9892","H-50":"21.9392","H-51":"18.7068","H-52":"21.8828","H-54":"7.744","H-55":"18.6332","H-56":"19.9024","H-58":"12.912","H-59":"14.5784","H-60":"21.6932","H-61":"9.3268","H-62":"18.3932","H-63":"20.4472","H-64":"16.094","H-65":"7.7616","H-66":"10.5228","H-167":"19.1872","H-168":"24.5752","H-169":"24.1148","H-170":"1.6792","H-171":"11.5116","H-172":"10.352","H-173":"20.2364","H-174":"19.876","H-175":"28.056","H-176":"9.658","H-177":"13.7172","H-178":"16.7488","H-179":"17.0368","H-180":"10.56","H-181":"11.732","H-182":"10.6936","H-183":"22.1316","H-184":"32.754","H-185":"19.6304","H-186":"1.9584","H-187":"19.0076","H-188":"13.1144","H-189":"10.8744","H-190":"38.4608","H-193":"19.5632","H-194":"17.1416","H-195":"19.0796","H-196":"14.48","H-197":"18.5388","H-198":"19.868","H-199":"24.3104","H-201":"14.3724","H-202":"18.068","H-203":"16.6132","H-204":"18.536","H-205":"9.1924","H-206":"9.4756","H-208":"11.2052","H-209":"11.5988","H-210":"19.0548","H-211":"16.1264","H-212":"11.7368","H-213":"7.7488","H-214":"15.524","H-215":"26.2108","H-216":"25.54","H-217":"12.4076","H-219":"8.2748","H-220":"14.5816","H-221":"12.4164","H-222":"13.3712","H-223":"7.4144","H-224":"9.8472","H-225":"22.0424","H-227":"13.3296","H-228":"21.2528","H-229":"28.0388","H-230":"23.1116","H-231":"20.216","H-232":"17.3472","H-233":"20.7836","H-234":"6.4416","H-235":"25.3004","H-236":"2.172","H-237":"10.0928","H-238":"15.0856","H-239":"24.2036","H-240":"8.1296","H-241":"22.72","H-245":"15.9572","H-247":"9.3668","H-248":"25.0836","H-249":"11.2112","H-67":"16.4588","H-68":"23.6716","H-250":"14.8568","H-69":"15.1116","H-70":"14.3248","H-71":"20.9668","H-72":"9.7468","H-73":"12.606","H-74":"18.0928","H-75":"23.9804","H-76":"17.5584","H-77":"17.284","H-78":"12.6096","H-79":"24.0432","H-80":"20.3708","H-81":"13.7444","H-82":"19.7908","H-83":"15.24","H-84":"26.2796","H-85":"8.304","H-86":"18.4508","H-87":"9.4128","H-88":"19.5852","H-89":"0.8968","H-90":"16.7916","H-91":"12.8032","H-92":"14.4172","H-93":"8.944","H-94":"9.2252","H-95":"27.774","H-96":"16.626","H-97":"24.4244","H-98":"8.5488","H-99":"21.9152","H-100":"13.222","H-101":"2.1836","H-102":"17.8772","H-103":"13.282","H-104":"11.6332","H-105":"13.368","H-106":"0.9512","H-107":"10.6116","H-108":"11.9516","H-109":"10.7872","H-110":"10.0468","H-111":"21.4744","H-112":"15.7864","H-113":"15.7672","H-114":"15.15","H-115":"7.0432","H-116":"20.9968","H-117":"13.3492","H-118":"19.0888","H-119":"16.0804","H-120":"14.7932","H-121":"15.6836","H-122":"11.3416","H-123":"14.3204","H-126":"10.4744","H-127":"8.6652","H-128":"9.7824","H-129":"7.5184","H-130":"11.6668","H-131":"16.9788","H-132":"19.0436","H-133":"11.7308","H-134":"24.2984","H-135":"21.9876","H-136":"18.0912","H-137":"19.1956","H-138":"12.8992","H-139":"16.0432","H-140":"16.67","H-141":"25.0484","H-142":"17.8236","H-143":"10.7804","H-144":"15.2256","H-145":"21.9452","H-146":"18.3584","H-147":"12.4988","H-148":"22.4328","H-149":"9.2752","H-150":"16.3168","H-151":"9.038","H-153":"19.0908","H-154":"17.8916","H-155":"9.1948","H-156":"3.5776","H-158":"16.7104","H-159":"6.5528","H-160":"12.4232","H-161":"15.2112","H-162":"23.9248","H-163":"18.8548","H-164":"17.01","H-243":"7.4312"},{"Metabolite":"Estradiol","H-1":"130239.3042","H-2":"196299.6364","H-3":"454651.7701","H-4":"78713.78196","H-5":"368388.5319","H-6":"194924.6216","H-7":"315516.0174","H-8":"240643.9137","H-9":"46526.62912","H-10":"54019.04653","H-11":"51420.38491","H-12":"239979.6846","H-13":"14437.49421","H-14":"15151.45014","H-15":"383782.7192","H-16":"92334.65742","H-17":"105397.0998","H-18":"18773.14292","H-19":"59239.98402","H-20":"380709.1117","H-21":"140231.9191","H-22":"182587.2821","H-23":"448622.9302","H-24":"112652.4795","H-25":"129737.7","H-26":"401748.728","H-27":"165532.654","H-28":"115638.58","H-29":"125984.6578","H-30":"154380.4958","H-31":"947882.1239","H-32":"261966.6399","H-33":"162813.0037","H-34":"83047.11139","H-35":"254918.6646","H-36":"480330.8688","H-37":"327971.8938","H-38":"261014.4669","H-39":"69889.62899","H-40":"426962.9024","H-41":"358453.1876","H-42":"816724.4557","H-43":"81268.89599","H-45":"98624.40387","H-46":"316104.9928","H-47":"879521.4285","H-48":"268438.1432","H-49":"80302.97981","H-50":"113162.8875","H-51":"122373.2189","H-52":"444194.7991","H-54":"363512.4839","H-55":"317573.0355","H-56":"429148.5866","H-58":"254462.0465","H-59":"417288.7477","H-60":"179219.7441","H-61":"375872.8159","H-62":"146465.6021","H-63":"55902.91091","H-64":"236811.2076","H-65":"49054.43328","H-66":"84929.16729","H-167":"297935.7569","H-168":"335229.5531","H-169":"347718.6695","H-170":"46810.22709","H-171":"176249.248","H-172":"378638.1293","H-173":"149712.5781","H-174":"25327.87844","H-175":"131213.9752","H-176":"317276.3809","H-177":"437845.5687","H-178":"254244.4769","H-179":"149966.6867","H-180":"154913.477","H-181":"179414.0093","H-182":"23674.55222","H-183":"258262.4371","H-184":"325318.1409","H-185":"177177.6617","H-186":"166317.4361","H-187":"40602.59828","H-188":"136705.2708","H-189":"310122.5017","H-190":"644129.1906","H-193":"34229.22124","H-194":"57057.46743","H-195":"91216.28531","H-196":"250852.145","H-197":"294223.2672","H-198":"140203.7561","H-199":"210186.0896","H-201":"85993.41106","H-202":"132410.1625","H-203":"301978.2721","H-204":"168073.9215","H-205":"20793.08752","H-206":"336369.2959","H-208":"318787.6652","H-209":"290377.5297","H-210":"28580.63583","H-211":"518416.3615","H-212":"403296.3242","H-213":"84429.36026","H-214":"152951.0526","H-215":"13998.03206","H-216":"67934.35499","H-217":"148324.5851","H-219":"96942.91782","H-220":"103237.6054","H-221":"77916.47698","H-222":"355854.5164","H-223":"209484.529","H-224":"44541.40883","H-225":"127807.9186","H-227":"419953.9557","H-228":"275515.0848","H-229":"87988.45222","H-230":"357097.3103","H-231":"32528.03059","H-232":"247174.0437","H-233":"98283.21174","H-234":"117732.4247","H-235":"292479.4755","H-236":"39064.36267","H-237":"241402.0215","H-238":"73899.00362","H-239":"123417.2976","H-240":"318606.2512","H-241":"48728.74125","H-245":"74567.42634","H-247":"50376.47796","H-248":"144551.1468","H-249":"120861.8709","H-67":"157590.1848","H-68":"535909.5338","H-250":"159547.9926","H-69":"489599.035","H-70":"78617.63946","H-71":"371070.0156","H-72":"1030071.985","H-73":"401195.6838","H-74":"58558.43926","H-75":"84370.86011","H-76":"53358.08689","H-77":"189181.2723","H-78":"69594.00488","H-79":"261388.9292","H-80":"176607.0332","H-81":"238048.5499","H-82":"48892.74225","H-83":"233404.3431","H-84":"111083.4145","H-85":"147067.105","H-86":"66535.38611","H-87":"2799","H-88":"225200.2439","H-89":"39202.09217","H-90":"188872.2259","H-91":"228229.016","H-92":"157626.8581","H-93":"105497.5072","H-94":"163608.7484","H-95":"88210.25317","H-96":"321766.3334","H-97":"214980.8238","H-98":"179787.6378","H-99":"112907.556","H-100":"381882.3882","H-101":"135137.5811","H-102":"197384.0522","H-103":"408484.1832","H-104":"2799","H-105":"232839.4644","H-106":"66715.75062","H-107":"133844.6536","H-108":"715691.6516","H-109":"137138.586","H-110":"51730.78529","H-111":"244452.8543","H-112":"236305.4136","H-113":"204525.2118","H-114":"190317.5471","H-115":"315515.1043","H-116":"366250.1988","H-117":"243678.3986","H-118":"90101.12773","H-119":"354582.2537","H-120":"153842.6304","H-121":"750662.9156","H-122":"168316.7158","H-123":"119368.4272","H-126":"178735.7247","H-127":"70549.74893","H-128":"189731.2704","H-129":"48273.01938","H-130":"166850.461","H-131":"106503.793","H-132":"100720.3619","H-133":"67894.5942","H-134":"99178.31438","H-135":"459454.3536","H-136":"331816.6075","H-137":"146562.2346","H-138":"175788.9972","H-139":"393079.3441","H-140":"164332.8577","H-141":"157897.1887","H-142":"674557.7218","H-143":"222421.7351","H-144":"600702.4691","H-145":"137908.9709","H-146":"2799","H-147":"338135.4071","H-148":"177496.1436","H-149":"114880.5595","H-150":"92476.55303","H-151":"175929.3578","H-153":"127001.9351","H-154":"450316.9411","H-155":"171611.7805","H-156":"81178.08165","H-158":"114251.7293","H-159":"375539.8591","H-160":"319659.2557","H-161":"320321.2317","H-162":"218737.0704","H-163":"84122.39426","H-164":"117782.0636","H-243":"164086.2894"},{"Metabolite":"11-Dehydrocorticosterone","H-1":"1.2468","H-2":"0.9072","H-3":"0.4816","H-4":"0.5972","H-5":"0.6268","H-6":"0.1324","H-7":"1.2524","H-8":"0.7756","H-9":"0.01","H-10":"1.1304","H-11":"0.6752","H-12":"0.276","H-13":"0.6964","H-14":"0.3756","H-15":"0.2652","H-16":"1.7256","H-17":"0.132","H-18":"0.5568","H-19":"0.78","H-20":"0.8732","H-21":"0.3436","H-22":"0.5608","H-23":"1.0016","H-24":"0.5384","H-25":"1.2048","H-26":"0.0516","H-27":"0.3644","H-28":"0.4596","H-29":"1.2084","H-30":"0.4912","H-31":"0.8688","H-32":"0.4688","H-33":"0.3796","H-34":"0.6544","H-35":"0.926","H-36":"0.508","H-37":"0.73","H-38":"0.89","H-39":"0.398","H-40":"0.4968","H-41":"0.8824","H-42":"0.4856","H-43":"1.1364","H-45":"0.412","H-46":"0.2536","H-47":"0.8236","H-48":"0.8864","H-49":"0.8088","H-50":"0.6876","H-51":"0.7272","H-52":"0.7664","H-54":"0.1872","H-55":"0.9236","H-56":"0.7916","H-58":"1.4308","H-59":"0.3124","H-60":"0.8568","H-61":"0.01","H-62":"0.5912","H-63":"0.8056","H-64":"0.7716","H-65":"0.216","H-66":"0.33","H-167":"0.5788","H-168":"2.5856","H-169":"1.1324","H-170":"0.01","H-171":"0.6496","H-172":"0.1392","H-173":"1.5036","H-174":"2.5392","H-175":"0.9736","H-176":"0.4784","H-177":"0.5736","H-178":"1.028","H-179":"0.6192","H-180":"0.502","H-181":"0.3812","H-182":"0.3756","H-183":"2.7324","H-184":"3.2024","H-185":"1.4792","H-186":"0.2456","H-187":"0.4524","H-188":"0.5508","H-189":"0.6112","H-190":"3.9208","H-193":"0.8412","H-194":"3.182","H-195":"0.7792","H-196":"0.7432","H-197":"0.8108","H-198":"1.0664","H-199":"3.802","H-201":"0.7624","H-202":"0.888","H-203":"1.0276","H-204":"1.0236","H-205":"0.3228","H-206":"0.2188","H-208":"0.3788","H-209":"0.5556","H-210":"0.662","H-211":"0.4088","H-212":"0.3944","H-213":"0.2984","H-214":"1.2292","H-215":"2.118","H-216":"1.5128","H-217":"0.4264","H-219":"0.382","H-220":"0.7324","H-221":"0.8092","H-222":"0.3596","H-223":"0.1568","H-224":"0.2088","H-225":"0.7808","H-227":"0.5756","H-228":"1.8404","H-229":"0.446","H-230":"1.4012","H-231":"0.4688","H-232":"1.0868","H-233":"0.578","H-234":"0.3472","H-235":"2.2836","H-236":"0.1236","H-237":"0.6156","H-238":"0.484","H-239":"1.5464","H-240":"0.2548","H-241":"1.0668","H-245":"0.5824","H-247":"0.4424","H-248":"1.1952","H-249":"0.2892","H-67":"1.2056","H-68":"0.792","H-250":"0.3248","H-69":"0.5116","H-70":"0.3604","H-71":"0.79","H-72":"0.3964","H-73":"0.4416","H-74":"0.7716","H-75":"0.8184","H-76":"0.4864","H-77":"0.4956","H-78":"0.8688","H-79":"2.29","H-80":"0.9716","H-81":"0.4588","H-82":"0.8812","H-83":"0.6268","H-84":"1.0452","H-85":"0.396","H-86":"0.4008","H-87":"0.6552","H-88":"0.9352","H-89":"0.01","H-90":"0.8524","H-91":"0.3384","H-92":"1.3532","H-93":"0.4244","H-94":"0.4296","H-95":"1.234","H-96":"0.5416","H-97":"1.1148","H-98":"0.5672","H-99":"1.1104","H-100":"0.3444","H-101":"0.1528","H-102":"0.8216","H-103":"0.3272","H-104":"0.3164","H-105":"0.3904","H-106":"0.1392","H-107":"0.5052","H-108":"0.352","H-109":"0.6168","H-110":"0.2676","H-111":"0.6248","H-112":"0.7568","H-113":"0.22","H-114":"0.6124","H-115":"0.2068","H-116":"0.6936","H-117":"0.3952","H-118":"1.3928","H-119":"0.6416","H-120":"0.6136","H-121":"0.468","H-122":"0.662","H-123":"0.6584","H-126":"0.6556","H-127":"0.1312","H-128":"0.1904","H-129":"0.1824","H-130":"0.5692","H-131":"1.6268","H-132":"1.0032","H-133":"0.58","H-134":"0.7668","H-135":"1.0964","H-136":"0.9612","H-137":"1.2988","H-138":"0.3052","H-139":"1.2772","H-140":"0.5648","H-141":"1.1256","H-142":"0.5944","H-143":"0.3656","H-144":"0.5292","H-145":"1.7356","H-146":"0.4916","H-147":"0.294","H-148":"0.9564","H-149":"0.1756","H-150":"0.4032","H-151":"0.53","H-153":"0.5724","H-154":"1.1628","H-155":"0.3284","H-156":"0.1676","H-158":"0.39","H-159":"0.274","H-160":"0.3996","H-161":"2.026","H-162":"1.3152","H-163":"1.5988","H-164":"0.7184","H-243":"0.182"},{"Metabolite":"17a-OH-progesterone","H-1":"0.035","H-2":"0.035","H-3":"0.568","H-4":"1.0944","H-5":"1.1788","H-6":"0.308","H-7":"2.0296","H-8":"0.856","H-9":"0.6304","H-10":"1.1276","H-11":"0.6064","H-12":"0.3732","H-13":"0.035","H-14":"0.8872","H-15":"0.9668","H-16":"0.035","H-17":"0.6456","H-18":"0.8048","H-19":"1.2096","H-20":"1.208","H-21":"0.7672","H-22":"0.6928","H-23":"1.0812","H-24":"0.5572","H-25":"1.6696","H-26":"0.6832","H-27":"0.1764","H-28":"0.47","H-29":"1.104","H-30":"1.4312","H-31":"0.5256","H-32":"0.035","H-33":"0.2932","H-34":"0.035","H-35":"0.8516","H-36":"1.0848","H-37":"0.6968","H-38":"0.5028","H-39":"0.952","H-40":"1.0388","H-41":"0.4812","H-42":"0.9972","H-43":"0.5756","H-45":"1.1316","H-46":"1.574","H-47":"0.1824","H-48":"0.2644","H-49":"0.808","H-50":"0.6604","H-51":"1.3056","H-52":"0.7052","H-54":"0.8484","H-55":"0.768","H-56":"0.4476","H-58":"1.8604","H-59":"1.7472","H-60":"1.9276","H-61":"0.3348","H-62":"0.035","H-63":"0.6088","H-64":"1.5164","H-65":"0.035","H-66":"0.035","H-167":"2.9508","H-168":"1.1244","H-169":"0.79","H-170":"0.035","H-171":"1.444","H-172":"0.6892","H-173":"1.3936","H-174":"1.304","H-175":"0.8988","H-176":"1.278","H-177":"0.9796","H-178":"1.0984","H-179":"0.5396","H-180":"1.8412","H-181":"0.3828","H-182":"0.5924","H-183":"2.1796","H-184":"2.3712","H-185":"2.0304","H-186":"7.2332","H-187":"1.2108","H-188":"0.9324","H-189":"0.8292","H-190":"6.2512","H-193":"1.0084","H-194":"2.048","H-195":"0.8456","H-196":"0.035","H-197":"0.9404","H-198":"2.4876","H-199":"1.5852","H-201":"0.035","H-202":"0.035","H-203":"1.7048","H-204":"3.3644","H-205":"0.035","H-206":"0.9764","H-208":"0.035","H-209":"0.035","H-210":"0.035","H-211":"1.1096","H-212":"0.9952","H-213":"0.035","H-214":"0.6792","H-215":"1.8056","H-216":"1.9996","H-217":"1.1216","H-219":"0.6436","H-220":"0.035","H-221":"1.2992","H-222":"0.6728","H-223":"0.035","H-224":"0.035","H-225":"0.035","H-227":"1.0192","H-228":"0.7932","H-229":"5.874","H-230":"1.1336","H-231":"0.8868","H-232":"1.0996","H-233":"0.9132","H-234":"1.4556","H-235":"1.2052","H-236":"0.8624","H-237":"1.3524","H-238":"0.035","H-239":"1.0036","H-240":"1.8812","H-241":"1.2604","H-245":"0.5552","H-247":"1.1092","H-248":"2.0912","H-249":"1.3292","H-67":"1.6772","H-68":"7.4416","H-250":"0.8648","H-69":"0.958","H-70":"0.9112","H-71":"0.8348","H-72":"0.035","H-73":"1.5196","H-74":"2.07","H-75":"0.594","H-76":"2.1772","H-77":"1.0316","H-78":"0.035","H-79":"1.0136","H-80":"0.035","H-81":"0.5768","H-82":"0.9264","H-83":"2.7516","H-84":"1.592","H-85":"1.5236","H-86":"0.5708","H-87":"0.442","H-88":"0.9856","H-89":"0.035","H-90":"0.818","H-91":"0.9368","H-92":"1.3612","H-93":"0.9628","H-94":"0.7184","H-95":"0.5616","H-96":"1.1808","H-97":"1.054","H-98":"0.5144","H-99":"0.302","H-100":"0.4692","H-101":"0.9828","H-102":"1.5352","H-103":"0.035","H-104":"0.726","H-105":"0.035","H-106":"0.035","H-107":"1.1188","H-108":"1.3752","H-109":"1.024","H-110":"0.035","H-111":"0.9244","H-112":"1.5884","H-113":"0.4624","H-114":"0.9904","H-115":"0.96","H-116":"0.035","H-117":"1.116","H-118":"0.8516","H-119":"0.6608","H-120":"1.1668","H-121":"1.7352","H-122":"0.4144","H-123":"0.035","H-126":"0.035","H-127":"0.756","H-128":"0.4804","H-129":"0.035","H-130":"0.9336","H-131":"5.952","H-132":"1.9728","H-133":"0.035","H-134":"1.3024","H-135":"1.6064","H-136":"0.035","H-137":"1.1352","H-138":"0.8036","H-139":"2.0184","H-140":"2.5668","H-141":"0.928","H-142":"0.7272","H-143":"1.012","H-144":"1.248","H-145":"0.7268","H-146":"1.3828","H-147":"1.218","H-148":"1.2032","H-149":"1.6352","H-150":"0.59","H-151":"0.035","H-153":"0.7588","H-154":"2.794","H-155":"1.3856","H-156":"0.804","H-158":"0.035","H-159":"0.8884","H-160":"1.2844","H-161":"1.216","H-162":"1.7556","H-163":"0.5312","H-164":"0.6924","H-243":"0.7712"},{"Metabolite":"Pregnenolone","H-1":"0.156","H-2":"4.9176","H-3":"0.7808","H-4":"6.724","H-5":"5.1808","H-6":"7.4824","H-7":"2.7412","H-8":"9.3312","H-9":"8.0744","H-10":"6.0476","H-11":"0.7988","H-12":"4.8392","H-13":"2.7728","H-14":"5.2332","H-15":"4.0596","H-16":"5.9724","H-17":"9.6204","H-18":"3.4568","H-19":"2.0372","H-20":"2.1524","H-21":"6.6048","H-22":"5.4652","H-23":"0.156","H-24":"3.7076","H-25":"2.9944","H-26":"3.9472","H-27":"2.9804","H-28":"2.2484","H-29":"4.2624","H-30":"6.9272","H-31":"5.502","H-32":"0.156","H-33":"1.8584","H-34":"3.1048","H-35":"2.152","H-36":"4.84","H-37":"4.6136","H-38":"5.914","H-39":"2.0556","H-40":"5.7236","H-41":"3.7232","H-42":"4.9404","H-43":"0.156","H-45":"2.1344","H-46":"1.6884","H-47":"5.6196","H-48":"4.4476","H-49":"8.4072","H-50":"1.4848","H-51":"5.374","H-52":"9.3744","H-54":"5.194","H-55":"5.5928","H-56":"6.1876","H-58":"0.156","H-59":"9.3136","H-60":"4.2528","H-61":"5.1116","H-62":"4.6828","H-63":"7.8788","H-64":"0.156","H-65":"9.1968","H-66":"1.5676","H-167":"2.654","H-168":"4.6384","H-169":"5.6612","H-170":"4.1864","H-171":"3.924","H-172":"9.1408","H-173":"3.4772","H-174":"1.0468","H-175":"6.058","H-176":"2.508","H-177":"3.4344","H-178":"4.3524","H-179":"1.486","H-180":"5.4572","H-181":"2.746","H-182":"7.4272","H-183":"1.5284","H-184":"5.1272","H-185":"5.692","H-186":"2.5036","H-187":"1.9004","H-188":"3.9224","H-189":"10.1732","H-190":"6.824","H-193":"3.65","H-194":"5.1444","H-195":"3.2092","H-196":"2.1564","H-197":"5.7664","H-198":"0.156","H-199":"0.156","H-201":"5.9636","H-202":"8.1488","H-203":"3.3068","H-204":"5.3332","H-205":"10.5816","H-206":"4.9332","H-208":"6.3724","H-209":"5.73","H-210":"4.6904","H-211":"9.6452","H-212":"1.666","H-213":"11.1296","H-214":"5.9196","H-215":"2.6172","H-216":"10.1504","H-217":"8.6992","H-219":"2.498","H-220":"5.204","H-221":"10.29","H-222":"4.258","H-223":"5.8396","H-224":"10.2028","H-225":"1.9224","H-227":"3.0212","H-228":"10.4428","H-229":"6.402","H-230":"0.156","H-231":"2.392","H-232":"5.7592","H-233":"7.56","H-234":"2.3528","H-235":"12.6584","H-236":"6.5568","H-237":"10.2804","H-238":"7.1956","H-239":"5.914","H-240":"4.2144","H-241":"0.156","H-245":"6.656","H-247":"5.9232","H-248":"8.5532","H-249":"4.584","H-67":"5.1568","H-68":"5.2576","H-250":"3.2416","H-69":"5.6556","H-70":"7.2276","H-71":"0.156","H-72":"6.938","H-73":"3.5372","H-74":"5.0296","H-75":"4.4584","H-76":"5.6036","H-77":"1.938","H-78":"0.156","H-79":"7.9624","H-80":"5.9228","H-81":"4.6128","H-82":"0.156","H-83":"0.156","H-84":"2.594","H-85":"1.8984","H-86":"0.156","H-87":"0.156","H-88":"2.2632","H-89":"2.5176","H-90":"0.156","H-91":"7.4124","H-92":"7.6984","H-93":"2.4688","H-94":"3.1248","H-95":"0.156","H-96":"0.156","H-97":"4.652","H-98":"0.156","H-99":"3.5868","H-100":"0.156","H-101":"9.3584","H-102":"4.53","H-103":"2.3188","H-104":"2.8948","H-105":"4.8812","H-106":"3.1004","H-107":"4.7796","H-108":"3.0552","H-109":"6.8996","H-110":"5.1512","H-111":"4.0412","H-112":"2.9004","H-113":"4.9112","H-114":"5.0672","H-115":"4.7444","H-116":"3.63","H-117":"6.248","H-118":"3.6624","H-119":"3.0504","H-120":"4.5584","H-121":"5.4336","H-122":"3.4924","H-123":"3.9284","H-126":"6.882","H-127":"4.0112","H-128":"9.594","H-129":"8.1212","H-130":"2.5412","H-131":"3.1928","H-132":"1.512","H-133":"3.8592","H-134":"0.156","H-135":"0.156","H-136":"4.982","H-137":"7.5772","H-138":"0.156","H-139":"6.672","H-140":"5.6288","H-141":"4.522","H-142":"4.7808","H-143":"2.3148","H-144":"4.3972","H-145":"0.156","H-146":"7.3676","H-147":"9.3804","H-148":"2.2284","H-149":"4.5948","H-150":"5.9076","H-151":"9.8156","H-153":"0.156","H-154":"12.512","H-155":"6.3364","H-156":"3.0628","H-158":"8.0248","H-159":"3.1872","H-160":"3.7304","H-161":"0.156","H-162":"5.382","H-163":"6.3636","H-164":"3.7148","H-243":"4.5676"},{"Metabolite":"Corticosterone","H-1":"1.655","H-2":"1.7695","H-3":"2.4645","H-4":"1.531","H-5":"0.83","H-6":"1.019","H-7":"3.0535","H-8":"2.0925","H-9":"0.9825","H-10":"2.455","H-11":"1.966","H-12":"1.439","H-13":"1.427","H-14":"1.475","H-15":"1.49","H-16":"4.177","H-17":"1.229","H-18":"1.17","H-19":"3.0875","H-20":"1.8695","H-21":"1.679","H-22":"1.9755","H-23":"3.794","H-24":"1.944","H-25":"1.3575","H-26":"0.833","H-27":"1.9465","H-28":"1.417","H-29":"3.6585","H-30":"1.18","H-31":"1.495","H-32":"1.0035","H-33":"1.553","H-34":"1.3595","H-35":"1.49","H-36":"1.0365","H-37":"1.9355","H-38":"2.5345","H-39":"1.4225","H-40":"2.455","H-41":"3.6605","H-42":"1.6335","H-43":"5.74","H-45":"1.45","H-46":"1.615","H-47":"3.6505","H-48":"1.874","H-49":"1.605","H-50":"2.3145","H-51":"2.043","H-52":"5.5565","H-54":"1.623","H-55":"3.331","H-56":"2.1465","H-58":"1.8825","H-59":"1.3865","H-60":"2.3615","H-61":"0.804","H-62":"2.662","H-63":"2.9155","H-64":"2.029","H-65":"1.8915","H-66":"1.7455","H-167":"1.842","H-168":"6.663","H-169":"7.004","H-170":"0.6595","H-171":"1.7935","H-172":"0.817","H-173":"8.2945","H-174":"13.1955","H-175":"2.1755","H-176":"0.8825","H-177":"2.6685","H-178":"2.584","H-179":"2.227","H-180":"1.734","H-181":"1.485","H-182":"1.214","H-183":"10.578","H-184":"6.3075","H-185":"3.4275","H-186":"1.4875","H-187":"2.806","H-188":"1.6125","H-189":"1.005","H-190":"5.79","H-193":"2.7155","H-194":"17.7335","H-195":"2.246","H-196":"1.8085","H-197":"4.0115","H-198":"3.336","H-199":"10.4605","H-201":"2.7165","H-202":"2.3605","H-203":"4.2395","H-204":"2.823","H-205":"1.4315","H-206":"1.129","H-208":"1.961","H-209":"1.781","H-210":"2.133","H-211":"1.659","H-212":"2.0465","H-213":"1.092","H-214":"3.5645","H-215":"19.275","H-216":"5.728","H-217":"1.865","H-219":"0.9555","H-220":"2.108","H-221":"2.046","H-222":"1.7995","H-223":"0.9365","H-224":"1.463","H-225":"2.5175","H-227":"2.5415","H-228":"10.713","H-229":"2.6785","H-230":"3.84","H-231":"2.273","H-232":"4.1175","H-233":"2.1085","H-234":"0.618","H-235":"3.1685","H-236":"0.7535","H-237":"1.0335","H-238":"1.879","H-239":"2.9365","H-240":"1.02","H-241":"1.669","H-245":"2.1075","H-247":"1.4515","H-248":"2.587","H-249":"2.883","H-67":"4.0635","H-68":"3.3565","H-250":"1.506","H-69":"2.2015","H-70":"1.628","H-71":"1.6435","H-72":"1.2835","H-73":"1.191","H-74":"1.1385","H-75":"3.0535","H-76":"1.3945","H-77":"1.616","H-78":"1.7045","H-79":"6.491","H-80":"1.944","H-81":"1.2155","H-82":"1.7845","H-83":"1.221","H-84":"3.717","H-85":"1.1835","H-86":"1.3055","H-87":"1.9125","H-88":"2.319","H-89":"1.156","H-90":"2.359","H-91":"0.914","H-92":"1.409","H-93":"1.3495","H-94":"0.9785","H-95":"4.4185","H-96":"1.695","H-97":"2.7095","H-98":"1.498","H-99":"2.199","H-100":"1.0005","H-101":"0.7095","H-102":"1.8445","H-103":"1.337","H-104":"1.878","H-105":"1.1875","H-106":"0.838","H-107":"1.322","H-108":"1.744","H-109":"1.2665","H-110":"2.263","H-111":"3.7535","H-112":"1.6175","H-113":"1.6455","H-114":"2.111","H-115":"1.024","H-116":"2.096","H-117":"1.2615","H-118":"3.545","H-119":"2.0855","H-120":"2.1275","H-121":"1.5645","H-122":"2.884","H-123":"1.314","H-126":"1.3865","H-127":"1.851","H-128":"0.8925","H-129":"0.8945","H-130":"2.0385","H-131":"12.8205","H-132":"2.538","H-133":"1.108","H-134":"2.4465","H-135":"2.863","H-136":"1.3175","H-137":"1.94","H-138":"1.7905","H-139":"1.5315","H-140":"1.7265","H-141":"3.3565","H-142":"1.354","H-143":"0.9895","H-144":"1.657","H-145":"4.357","H-146":"2.5675","H-147":"1.559","H-148":"2.4095","H-149":"0.938","H-150":"1.7085","H-151":"1.693","H-153":"2.3935","H-154":"10.3875","H-155":"2.2555","H-156":"0.8605","H-158":"2.163","H-159":"1.2895","H-160":"1.557","H-161":"8.0545","H-162":"2.965","H-163":"3.588","H-164":"2.462","H-243":"0.8215"}],
+
+"Metabolites":[{"Metabolite":"11-ketotestosterone","PubChem CID":"5282365"},{"Metabolite":"Androstenedione","PubChem CID":"6128"},{"Metabolite":"Testosterone","PubChem CID":"6013"},{"Metabolite":"Corticosterone","PubChem CID":"5753"},{"Metabolite":"Estradiol","PubChem CID":"5757"},{"Metabolite":"Cortisol","PubChem CID":"5754"},{"Metabolite":"Cortisone","PubChem CID":"222786"},{"Metabolite":"11-Dehydrocorticosterone","PubChem CID":"13783449"},{"Metabolite":"17a-OH-progesterone","PubChem CID":"6238"},{"Metabolite":"Pregnenolone","PubChem CID":"8955"},{"Metabolite":"11-deoxycortisol","PubChem CID":"44308200 "}]
+}
+
+}
